@@ -1,0 +1,24 @@
+{
+    "name": "waughj/us-phone-number",
+    "description": "Class for easily reformatting a US phone number.",
+    "keywords": [ "phone number", "formatting" ],
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\USPhoneNumber\\": "src/"
+        }
+    }
+}
